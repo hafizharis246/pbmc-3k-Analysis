@@ -1,0 +1,83 @@
+{
+  "dataset": "10x Genomics PBMC 3K",
+  "dataset_source_for_this_run": "Existing local H5AD copy",
+  "initial_cells": 2700,
+  "initial_genes": 32738,
+  "cells_after_qc": 2638,
+  "genes_after_qc_before_hvg_selection": 32738,
+  "highly_variable_genes_used": 2013,
+  "number_of_leiden_clusters": 6,
+  "cluster_sizes": {
+    "0": 1193,
+    "1": 640,
+    "2": 418,
+    "3": 339,
+    "4": 35,
+    "5": 13
+  },
+  "markers_plotted": [
+    "CD3D",
+    "CD3E",
+    "MS4A1",
+    "LST1",
+    "LYZ",
+    "NKG7"
+  ],
+  "mean_log1p_expression_by_cluster": {
+    "0": {
+      "CD3D": 2.1259,
+      "CD3E": 1.7169,
+      "MS4A1": 0.0824,
+      "LST1": 0.2744,
+      "LYZ": 0.9349,
+      "NKG7": 0.3148
+    },
+    "1": {
+      "CD3D": 0.1475,
+      "CD3E": 0.1721,
+      "MS4A1": 0.0937,
+      "LST1": 3.1243,
+      "LYZ": 4.5816,
+      "NKG7": 0.3836
+    },
+    "2": {
+      "CD3D": 1.5402,
+      "CD3E": 1.3297,
+      "MS4A1": 0.0876,
+      "LST1": 0.2297,
+      "LYZ": 0.8398,
+      "NKG7": 4.0096
+    },
+    "3": {
+      "CD3D": 0.1096,
+      "CD3E": 0.1923,
+      "MS4A1": 2.1593,
+      "LST1": 0.2502,
+      "LYZ": 0.875,
+      "NKG7": 0.1585
+    },
+    "4": {
+      "CD3D": 0.1816,
+      "CD3E": 0.1756,
+      "MS4A1": 0.1191,
+      "LST1": 2.2254,
+      "LYZ": 4.5652,
+      "NKG7": 0.4047
+    },
+    "5": {
+      "CD3D": 0.0,
+      "CD3E": 0.2754,
+      "MS4A1": 0.0,
+      "LST1": 0.2387,
+      "LYZ": 1.2047,
+      "NKG7": 0.1812
+    }
+  },
+  "qc_thresholds": {
+    "detected_genes_min_inclusive": 200,
+    "detected_genes_max_inclusive": 2500,
+    "mitochondrial_percent_max_exclusive": 5
+  },
+  "neighbor_count": 10,
+  "leiden_resolution": 0.5
+}
